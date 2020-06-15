@@ -1,0 +1,42 @@
+.jumbotron {
+	background-color:#1EC8F4;
+	color:#ffffff;
+}
+.form-control{
+	margin-right:5px;
+}
+.btn{
+	background-color: red;
+	border: 1px solid #000000;
+}
+.bg-grey{
+	background-color: #AFA4A4;
+}
+.container-fluid{
+	padding: 60px 50px;
+}
+.img1{
+	width:300px;
+	height: 300px;
+}
+@media screen and (max-width: 768px)
+{
+	.col-sm-4{
+		text-align:center;
+		margin: 25px 0;
+	}
+}
+.img2{
+	width: 100px;
+	height: 100px;
+	padding: 10px;
+
+}
+.logo-small{
+	color:#1ECBF4;
+	font-size:50px;
+}
+
+.thumbnail{
+	margin: 5px 5px ;
+}

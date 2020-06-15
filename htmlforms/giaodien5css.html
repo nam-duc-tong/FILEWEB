@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+<style> 
+input[type=text] {
+  width: 70%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  margin-top: 20px
+}
+
+.bannercenter{
+	width: 680px;
+	height: 590px;
+	margin-right: 20px;
+	float: left;
+	background-size: cover;
+	position: relative;
+}
+</style>
+	
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"> 
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</head>
+<body>
+	
+
+	<form action="/my-handling-form-page" method="post" style="width: 400px;color: #040404; border-style: solid;border-radius:30px;" >
+	<div class="banner">
+			<a class="bannercenter" href="#">
+				<ul style ="list-style-type:none;">
+					<li>
+						<label> Name:</label>
+						<input type ="text" id ="Name" name="Name">
+					</li>
+					<li>
+						<label> E-Mail:</label>
+						<input type ="text" id ="email" name="email">
+					</li>
+					<li>
+						<label> Message:</label>
+						<input type ="text" id ="message" name="message">
+					</li>
+					<li>
+						<input type="submit" value="Send Your message">
+					</li>
+				</ul>
+			</a>
+		</div>
+	</form>
+
+</body>
+</html>
